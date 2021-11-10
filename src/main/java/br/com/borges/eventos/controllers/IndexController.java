@@ -1,4 +1,4 @@
-package br.com.borges.eventos.eventos;
+package br.com.borges.eventos.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
