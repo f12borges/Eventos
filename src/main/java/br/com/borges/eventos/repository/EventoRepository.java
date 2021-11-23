@@ -6,5 +6,4 @@ import br.com.borges.eventos.models.Evento;
 
 public interface EventoRepository extends CrudRepository <Evento, String> {
 	
-
 }
