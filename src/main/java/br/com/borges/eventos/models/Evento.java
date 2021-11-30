@@ -9,11 +9,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table (name = "Evento")
-public class Evento implements Serializable{
-	
+@Table(name = "Evento")
+public class Evento implements Serializable {
+
 	private static final long serialVersionUID = 1L;
-	
+
 	public long getCodigo() {
 		return codigo;
 	}

@@ -31,6 +31,7 @@ cd "diretorio de sua preferencia"
 
 # Clone este repositório
 git clone https://github.com/f12borges/Eventos.git
+
 ```
 
 ---
@@ -57,5 +58,5 @@ Crie um banco de dados com as informações contidas na classe DataConfiguration
 ```
 3. Execute o projeto manualmente no eclipse.
 
-4. Acesse em http://localhost:8080
+4. Acesse em http://localhost:8080/eventos
 ---

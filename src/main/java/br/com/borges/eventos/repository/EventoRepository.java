@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import br.com.borges.eventos.models.Evento;
 
-public interface EventoRepository extends CrudRepository <Evento, String> {
-	
+public interface EventoRepository extends CrudRepository<Evento, String> {
+	Evento findByCodigo(long codigo);
 }
