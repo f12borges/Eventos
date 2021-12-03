@@ -3,8 +3,10 @@ package br.com.borges.eventos.models;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "Convidado")
 public class Convidado {
 
 	@Id
