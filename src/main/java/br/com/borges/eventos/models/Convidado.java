@@ -3,14 +3,17 @@ package br.com.borges.eventos.models;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+
+import javax.validation.constraints.NotEmpty;
 
 @Entity
-@Table(name = "Convidado")
 public class Convidado {
 
 	@Id
+	@NotEmpty
 	private String rg;
+	
+	@NotEmpty
 	private String nomeConvidado;
 
 	@ManyToOne

@@ -40,10 +40,12 @@
 				Horario: <span th:text="${evento.horario}"></span>
 			</p>
 		</div>
+		
+		<th:block th:include="mensagemValidacao"></th:block>
 
 		<form method="post">
-			Nome: <input type="text" value="" name="nomeConvidado" /> RG: <input
-				type="text" value="" name="rg" />
+			Nome: <input type="text" value="" name="nomeConvidado" placeholder="Nome Completo"/>
+			RG: <input type="text" value="" name="rg" placeholder="00.000.000-0" class="validate"/>
 			<button class="waves-effect waves-light btn" type="submit">Adicionar</button>
 		</form>
 	</div>
