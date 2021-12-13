@@ -7,7 +7,7 @@
 </h4>
 
 <h4 align="center">
-	Em desenvolvimento...
+	🎉Concluído!🎊
 </h4>
 
 ## 💻 Sobre o projeto
